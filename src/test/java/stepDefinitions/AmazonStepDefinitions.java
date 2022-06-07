@@ -10,7 +10,6 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class AmazonStepDefinitions {
-
     AmazonPage amazonPage=new AmazonPage();
 
     @Given("kullanici amazon anasayfasinda")
