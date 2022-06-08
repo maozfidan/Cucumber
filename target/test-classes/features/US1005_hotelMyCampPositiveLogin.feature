@@ -1,7 +1,6 @@
-
-
 Feature: US1005 dogru kullanici adi ve sifre ile giris yapilabilmeli
-@hmc
+
+  @smoke  @regression @haftalik
   Scenario: TC08 positive login test
     Given kullanici "HMCUrl" anasayfasinda
     Then Log in yazisina tiklar
@@ -10,3 +9,4 @@ Feature: US1005 dogru kullanici adi ve sifre ile giris yapilabilmeli
     And Login butonuna basar
     Then sayfaya giris yaptigini kontrol eder
     And sayfayi kapatir
+
