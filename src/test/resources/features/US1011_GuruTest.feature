@@ -1,5 +1,5 @@
 Feature: US1011 web tablasundaki istenen sutunu yazdirma
-  @guru
+  @guru @pr2
   Scenario:TC16 kullanici sutun basligi ile liste alabilmeli
 
     Given kullanici "guruUrl" anasayfasinda
