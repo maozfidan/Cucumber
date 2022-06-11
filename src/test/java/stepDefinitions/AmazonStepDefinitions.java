@@ -92,4 +92,9 @@ public class AmazonStepDefinitions {
         }
 
     }
+
+    @Given("aaaa")
+    public void aaaa() {
+        Driver.getDriver().get("https://www.amazon.com");
+    }
 }

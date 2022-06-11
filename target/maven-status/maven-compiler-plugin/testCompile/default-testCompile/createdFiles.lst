@@ -1,5 +1,4 @@
 stepDefinitions\AutomationStepDefinitions.class
-runners\Hooks.class
 stepDefinitions\AmazonStepDefinitions.class
 stepDefinitions\DataTablesStepDefinitions.class
 pages\GuruPage.class
