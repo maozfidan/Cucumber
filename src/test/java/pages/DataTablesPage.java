@@ -6,7 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class DataTablesPage {
-    public DataTablesPage(){
+    public DataTablesPage()
+    {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
